@@ -1,5 +1,5 @@
 # Sales-Performance-Forecasting-Dashboard-by-Power-BI
-# Sales Performance & Forecasting Dashboard
+
 
 A Power BI project analyzing four years of sales data to uncover sales trends, order patterns, product and customer performance, geographic distribution, shipping preferences, and seasonal sales patterns, with an estimated sales outlook for 2019.
 
