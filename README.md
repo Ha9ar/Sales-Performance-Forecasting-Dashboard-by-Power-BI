@@ -30,15 +30,15 @@ The analysis focuses on:
 
 ## Dashboard Preview
 
-### Sales Dashboard — Page 1
+### Sales Dashboard 
 
 ![Sales Dashboard Page 1](images/1.png)
 
-### Sales Dashboard — Page 2
+
 
 ![Sales Dashboard Page 2](images/2.png)
 
-### Sales Dashboard — Page 3
+
 
 ![Sales Dashboard Page 3](images/3.png)
 
