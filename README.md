@@ -1,17 +1,21 @@
 # Sales-Performance-Forecasting-Dashboard-by-Power-BI
-# Sales Performance & Forecasting Dashboard
 
-A Power BI project focused on analyzing four years of sales data to identify sales trends, customer and product patterns, geographic performance, shipping preferences, and recurring seasonal trends, with a sales forecast for 2019.
+
+A Power BI project analyzing four years of sales data to uncover sales trends, order patterns, product and customer performance, geographic distribution, shipping preferences, and seasonal sales patterns, with an estimated sales outlook for 2019.
 
 ## Project Overview
 
-This project analyzes sales performance from **2015 to 2018** using Power BI. The analysis focuses on understanding overall sales performance, order volume, customer behavior, product performance, geographic markets, shipping methods, and yearly and seasonal sales trends.
+This project analyzes sales data covering the period from **2015 to 2018** using Microsoft Power BI.
 
-The project also uses historical sales patterns to estimate expected sales performance in **2019**.
+The analysis explores overall sales and order performance, customer and product behavior, geographic markets, customer segments, shipping methods, and recurring monthly and quarterly sales patterns.
+
+Historical sales trends and recurring seasonal patterns were also used to estimate the expected sales performance for **2019**.
 
 ## Project Objective
 
-The objective of this project is to analyze sales data and identify trends and patterns in:
+The objective of this project is to analyze sales data and identify meaningful patterns and trends that can help evaluate sales performance and support data-driven decision-making.
+
+The analysis focuses on:
 
 * Sales performance
 * Order volume
@@ -22,21 +26,25 @@ The objective of this project is to analyze sales data and identify trends and p
 * Shipping methods
 * Seasonal sales patterns
 * Year-over-year sales growth
-* Future sales expectations
+* 2019 sales expectations
 
 ## Dashboard Preview
 
-### Page 1 — Sales Performance
+### Sales Dashboard — Page 1
 
-![Sales Performance Dashboard](images/dashboard-page-1.png)
+![Sales Dashboard Page 1](1.png)
 
-### Page 2 — Product & Customer Analysis
+### Sales Dashboard — Page 2
 
-![Product and Customer Analysis](images/dashboard-page-2.png)
+![Sales Dashboard Page 2](2.png)
 
-### Page 3 — Four-Year Sales Analysis
+### Sales Dashboard — Page 3
 
-![Four-Year Sales Analysis](images/dashboard-page-3.png)
+![Sales Dashboard Page 3](3.png)
+
+### Product Analysis — Page 6
+
+![Product Analysis](6.png)
 
 ## Key KPIs
 
@@ -51,17 +59,19 @@ The objective of this project is to analyze sales data and identify trends and p
 
 ## Dataset Overview
 
-* **Sales Period:** 2015–2018
-* **Categories:** Furniture, Office Supplies, Technology
-* **Customer Segments:** Home Office, Corporate, Consumer
-* **Shipping Methods:** Standard Class, Second Class, First Class, Same Day
-* **Geographic Coverage:** 49 states and 529 cities
+| Attribute           | Details                                             |
+| ------------------- | --------------------------------------------------- |
+| Sales Period        | 2015–2018                                           |
+| Categories          | Furniture, Office Supplies, Technology              |
+| Customer Segments   | Home Office, Corporate, Consumer                    |
+| Shipping Methods    | Standard Class, Second Class, First Class, Same Day |
+| Geographic Coverage | 49 States and 529 Cities                            |
 
 ## Key Insights
 
 ### Sales Performance
 
-* **2018** recorded the highest sales, with **721,351**, representing **31.9% of total sales**.
+* **2018** was the highest-performing sales year, generating **721,351** in sales and representing **31.9% of total sales**.
 * 2018 also recorded the highest number of orders, with **1,661 orders**, representing **33.7% of total orders**.
 * The **West region** generated the highest share of sales, accounting for **31.4%**.
 * **Technology** was the highest-selling category, contributing **36.5% of total sales**.
@@ -70,11 +80,23 @@ The objective of this project is to analyze sales data and identify trends and p
 
 ### Order Analysis
 
-* 2018 recorded the highest number of orders, with **1,661 orders**.
-* The **West region** accounted for the highest share of orders, at **31.2%**.
-* The **Consumer** segment recorded the highest share of orders, at **51.5%**.
+* **2018** recorded the highest number of orders, with **1,661 orders**.
+* The **West region** recorded the highest share of orders, accounting for **31.2%**.
+* **Consumer** recorded the highest share of orders, accounting for **51.5%**.
 
-### Four-Year Sales Trends
+### Product Analysis
+
+The analysis showed that the **10 best-selling products were not the same as the 10 most-ordered products**.
+
+This highlights the difference between **sales value and order volume**, as products with fewer orders can generate significantly higher sales depending on their individual value.
+
+### Customer Analysis
+
+The analysis also showed that the **10 highest-selling customers were not the same as the 10 most-ordered customers**.
+
+This distinction demonstrates that a higher number of orders does not necessarily correspond to higher total sales value.
+
+## Four-Year Sales Analysis
 
 | Year | Total Sales |
 | ---- | ----------: |
@@ -83,18 +105,33 @@ The objective of this project is to analyze sales data and identify trends and p
 | 2017 |     599,492 |
 | 2018 |     721,351 |
 
-The analysis identified several recurring patterns:
+### Key Trends
 
-* 2015 recorded the lowest annual sales, while 2018 recorded the highest.
-* **Q1** consistently recorded the lowest sales across the four years.
+* **2015** recorded the lowest annual sales, while **2018** recorded the highest.
+* **Q1** consistently recorded the lowest sales across the four-year period.
 * **Q4** consistently recorded the highest sales.
-* Sales increased noticeably during **March, September, November, and December**.
-* **February** recorded the lowest monthly sales, followed by January.
-* The recurring increase in Q4, particularly during November and December, highlights a clear **seasonal sales pattern**.
+* Sales showed noticeable increases during **March, September, November, and December**.
+* **February** recorded the lowest monthly sales, followed by **January**.
+* Sales increased consistently during **November and December**, highlighting a recurring seasonal pattern.
+* Sales in **Q2** during the first two years were nearly identical.
+* Q2 sales increased during the later years, while **2017 and 2018 remained relatively close** in Q2 performance.
+* **October** sales remained relatively stable during the first two years.
+
+## Year-over-Year Sales Growth
+
+The year-over-year comparison showed:
+
+| Year | Sales Growth |
+| ---- | -----------: |
+| 2016 |       -4.15% |
+| 2017 |      +30.48% |
+| 2018 |      +20.33% |
+
+The results indicate an overall upward trend in sales despite the decline recorded in **2016**.
 
 ## 2019 Sales Forecast
 
-Based on the historical sales patterns observed from 2015 to 2018, sales are expected to continue growing in 2019.
+Based on the historical sales patterns observed between **2015 and 2018**, sales are expected to continue growing in 2019.
 
 Higher sales activity is particularly expected during:
 
@@ -103,7 +140,7 @@ Higher sales activity is particularly expected during:
 * **November — Q4**
 * **December — Q4**
 
-The forecast is based on historical sales trends, recurring seasonal patterns, and year-over-year sales performance.
+This estimated outlook is based on historical sales trends, recurring seasonal patterns, and the overall sales performance observed during the four-year period.
 
 ## Tools & Technologies
 
@@ -116,18 +153,22 @@ The forecast is based on historical sales trends, recurring seasonal patterns, a
 
 ## Project Files
 
-* **Power BI Dashboard:** `.pbix`
-* **Analysis Report:** `.pdf`
-* **Dataset:** Source data used for the analysis
+| File    | Description                       |
+| ------- | --------------------------------- |
+| `.pbix` | Interactive Power BI dashboard    |
+| `.pdf`  | Detailed sales analysis report    |
+| Dataset | Source data used for the analysis |
 
 ## Conclusion
 
-The analysis revealed an overall upward sales trend over the four-year period, despite a decline in 2016. The results highlighted differences in performance across regions, categories, customer segments, products, customers, and shipping methods.
+The analysis revealed an overall upward sales trend over the four-year period, with **2018 recording the highest sales and order performance**.
 
-The analysis also identified recurring seasonal patterns, with Q4 consistently recording the strongest sales performance and higher activity observed during several specific months.
+The results also highlighted differences in sales performance across **regions, product categories, customer segments, shipping methods, products, and customers**.
 
-These findings provide a clearer view of historical sales performance and support the estimated sales outlook for 2019.
+In addition, the analysis identified recurring seasonal patterns, with **Q4 consistently recording the strongest sales performance** and increased activity observed during several key months.
 
----
+These findings provide a comprehensive view of historical sales performance and support the estimated sales outlook for **2019**.
 
-**Explore the complete project, including the Power BI dashboard and analysis report, on GitHub.**
+## Project Repository
+
+**Explore the complete project, including the Power BI dashboard and detailed analysis report, on GitHub.**
