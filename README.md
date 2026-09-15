@@ -1,5 +1,5 @@
 # Sales-Performance-Forecasting-Dashboard-by-Power-BI
-
+# Sales Performance & Forecasting Dashboard
 
 A Power BI project analyzing four years of sales data to uncover sales trends, order patterns, product and customer performance, geographic distribution, shipping preferences, and seasonal sales patterns, with an estimated sales outlook for 2019.
 
@@ -32,19 +32,19 @@ The analysis focuses on:
 
 ### Sales Dashboard — Page 1
 
-![Sales Dashboard Page 1](1.png)
+![Sales Dashboard Page 1](images/1.png)
 
 ### Sales Dashboard — Page 2
 
-![Sales Dashboard Page 2](2.png)
+![Sales Dashboard Page 2](images/2.png)
 
 ### Sales Dashboard — Page 3
 
-![Sales Dashboard Page 3](3.png)
+![Sales Dashboard Page 3](images/3.png)
 
 ### Product Analysis — Page 6
 
-![Product Analysis](6.png)
+![Product Analysis](images/6.png)
 
 ## Key KPIs
 
@@ -119,8 +119,6 @@ This distinction demonstrates that a higher number of orders does not necessaril
 
 ## Year-over-Year Sales Growth
 
-The year-over-year comparison showed:
-
 | Year | Sales Growth |
 | ---- | -----------: |
 | 2016 |       -4.15% |
@@ -171,4 +169,4 @@ These findings provide a comprehensive view of historical sales performance and 
 
 ## Project Repository
 
-**Explore the complete project, including the Power BI dashboard and detailed analysis report, on GitHub.**
+Explore the complete project, including the **Power BI dashboard and detailed analysis report**, in this repository.
