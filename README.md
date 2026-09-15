@@ -42,7 +42,7 @@ The analysis focuses on:
 
 ![Sales Dashboard Page 3](images/3.png)
 
-### Product Analysis — Page 6
+### Product Analysis 
 
 ![Product Analysis](images/6.png)
 
